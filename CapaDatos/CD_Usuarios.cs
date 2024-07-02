@@ -50,7 +50,7 @@ namespace CapaDatos
 			catch (Exception ex)
 			{
 				// Agregar logging para capturar excepciones
-				Console.WriteLine("Error: " + ex.Message);
+				Console.WriteLine("Errores: " + ex.Message);
 				lista = new List<USUARIO>();
 			}
 
